@@ -6,9 +6,9 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import slide1 from "../images/slide1.jpeg";
-import slide2 from "../images/slide2.jpg";
-import slide3 from "../images/slide3.jpeg";
+import slide1 from "../images/slid1.jpg";
+import slide2 from "../images/slid2.jpg";
+import slide3 from "../images/slid3.jpg";
 
 const items = [
   {
@@ -58,7 +58,7 @@ const Carousel1 = (props) => {
       >
         <img
           className="img-responsive"
-          style={{ width: "100%", minHeight: "100%", marginTop: "8px" }}
+          style={{ width: "100%", maxHeight: "640px", marginTop: "8px" }}
           src={item.src}
           alt={item.altText}
         />

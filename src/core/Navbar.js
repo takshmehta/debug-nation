@@ -9,7 +9,7 @@ const Navbar = () => {
       // style={{ minWidth: "100%" }}
     >
       <Link to="/">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand animate__animated animate__swing " href="#">
           <img
             src={debug}
             width="30"

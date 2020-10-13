@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import contact from "../images/miles-burke-idhx-MOCDSk-unsplash (2).jpg";
 
 const Contact = () => {
   return (

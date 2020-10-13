@@ -4,7 +4,6 @@ import Base from "./Base";
 import Carousel1 from "./Carousel";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import boy from "../images/boy.jpg";
 import Projects from "./Projects";
 
 const Home = () => {
