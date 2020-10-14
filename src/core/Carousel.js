@@ -6,25 +6,33 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import slide1 from "../images/slid1.jpg";
-import slide2 from "../images/slid2.jpg";
-import slide3 from "../images/slid3.jpg";
+// import slide1 from "../images/slid1.jpg";
+// import slide2 from "../images/slid2.jpg";
+// import slide3 from "../images/slid3.jpg";
 
 const items = [
   {
-    src: slide1,
+    src:
+      "https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/slid1.jpg?alt=media&token=d4440ad2-702b-44b8-b014-df8363f30661",
     altText: "Slide 1",
-    caption: "Slide 1",
+    caption:
+      "“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”",
+    caption2: " Martin Fowler",
   },
   {
-    src: slide2,
+    src:
+      "https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/slid2.jpg?alt=media&token=0466ce46-a032-40dc-9bc0-c6454feed092",
     altText: "Slide 2",
-    caption: "Slide 2",
+    caption: "“ Code is like humor. When you have to explain it, it’s bad.”",
+    caption2: "Cory House",
   },
   {
-    src: slide3,
+    src:
+      "https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/slid3.jpg?alt=media&token=dc134d8d-a843-4fdb-b626-c522a9515497",
     altText: "Slide 3",
-    caption: "Slide 3",
+    caption:
+      "“If you control the code, you control the world. This is the future that awaits us.”",
+    caption2: "Marc Goodman",
   },
 ];
 
@@ -57,13 +65,17 @@ const Carousel1 = (props) => {
         key={item.src}
       >
         <img
-          className="img-responsive"
-          style={{ width: "100%", maxHeight: "640px", marginTop: "8px" }}
+          className="img-fluid"
+          style={{
+            width: "100%",
+            maxHeight: 640,
+            marginTop: "8px",
+          }}
           src={item.src}
           alt={item.altText}
         />
         <CarouselCaption
-          captionText={item.caption}
+          captionText={item.caption2}
           captionHeader={item.caption}
         />
       </CarouselItem>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import debug from "../images/degug n.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +10,7 @@ const Navbar = () => {
       <Link to="/">
         <a className="navbar-brand animate__animated animate__swing " href="#">
           <img
-            src={debug}
+            src="https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/degug%20n.png?alt=media&token=81930d61-905c-4b87-a2ad-dcbcc4ef58aa"
             width="30"
             height="30"
             class="d-inline-block align-top"
