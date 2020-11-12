@@ -23,7 +23,7 @@ const Projects = () => {
           </div> */}
         </div>
         <div>
-          <div className="card mt-4" style={{ width: "30rem" }}>
+          <div className="card mt-4 container-fluid" style={{}}>
             <div className="card-body">
               <h5 className="card-title text-center h3">MagVerse</h5>
               {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}

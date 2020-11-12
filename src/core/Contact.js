@@ -45,19 +45,7 @@ export default function ContactUs() {
       <div className="container-fluid mt-1">
         <div className="row">
           <div className="d-flex justify-content-center col-md-12  mt-5 ">
-            <form onSubmit={(sendEmail, notify)} style={{ width: "400px" }}>
-              <ToastContainer
-                position="top-right"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-              />
-              <ToastContainer />
+            <form onSubmit={sendEmail} style={{ width: "400px" }}>
               <div className="form-group">
                 <input
                   type="text"
@@ -88,10 +76,23 @@ export default function ContactUs() {
               </div>
               <div className="">
                 <input
+                  onClick={notify}
                   type="submit"
                   className=" col-md-12 btn btn-success"
                   value="Send Message"
                 ></input>
+                <ToastContainer
+                  position="top-right"
+                  autoClose={5000}
+                  hideProgressBar={false}
+                  newestOnTop={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                />
+                <ToastContainer />
               </div>
             </form>
           </div>
