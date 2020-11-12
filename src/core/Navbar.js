@@ -8,16 +8,19 @@ const Navbar = () => {
       // style={{ minWidth: "100%" }}
     >
       <Link to="/">
+        <span className="ml-2"></span>
         <a className="navbar-brand animate__animated animate__swing " href="#">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/degug%20n.png?alt=media&token=81930d61-905c-4b87-a2ad-dcbcc4ef58aa"
             width="30"
             height="30"
-            class="d-inline-block align-top"
+            class="d-inline-block align-top mr-2"
             alt=""
             loading="lazy"
           ></img>
-          Debug-Nation
+          <span className="mr-5" style={{ fontSize: 24, color: "#585858" }}>
+            DEBUG NATION
+          </span>
         </a>
       </Link>
       <button

@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer ">
       <div class="blockquote text-center">
         <h1 class="mb-0 mt-4">
-          Debug-Nation
+          Debug Nation
           <p class="text-muted h3">We code, we build </p>
         </h1>
       </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div class="footer-copyright text-center py-3 mt-0">
-          © 2020 by Debug-Nation
+          © 2020 by Debug Nation
         </div>
       </div>
     </div>
