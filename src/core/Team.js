@@ -167,7 +167,7 @@ const Team = () => {
           <div className="">
             <div className="card border-0" style={{ width: "18rem" }}>
               <img
-                src="https://scontent.fdel41-1.fna.fbcdn.net/v/t1.0-9/84042076_2699986700229312_7171477636261085184_o.jpg?_nc_cat=101&_nc_sid=174925&_nc_ohc=NObrHk8zx6YAX_Zic52&_nc_ht=scontent.fdel41-1.fna&oh=96f07b0f653496c3fe4d77ce469f3cd3&oe=5FA6DE07"
+                src="https://scontent.fdel41-1.fna.fbcdn.net/v/t1.0-9/89960077_2751654848395830_881009757912039424_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=eIIU-4ESZU0AX8DG7t2&_nc_ht=scontent.fdel41-1.fna&oh=c5c79b52b7d1553ea59eb2c3f2c79cea&oe=5FD3C66E"
                 className="card-img-top rounded-circle"
                 alt="..."
                 height="280px"

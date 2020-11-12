@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.5.2",
+    "emailjs": "^3.3.0",
+    "emailjs-com": "^2.6.3",
     "gh-pages": "^3.1.0",
     "netlify-cli": "^2.65.5",
     "react": "^16.13.1",
@@ -16,6 +18,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scroll-parallax": "^2.3.4",
+    "react-toastify": "^6.1.0",
+    "reactjs-popup": "^2.0.4",
     "reactstrap": "^8.6.0"
   },
   "scripts": {
