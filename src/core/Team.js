@@ -167,7 +167,7 @@ const Team = () => {
           <div className="">
             <div className="card border-0" style={{ width: "18rem" }}>
               <img
-                src="https://scontent.fdel41-1.fna.fbcdn.net/v/t1.0-9/89960077_2751654848395830_881009757912039424_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=eIIU-4ESZU0AX8DG7t2&_nc_ht=scontent.fdel41-1.fna&oh=c5c79b52b7d1553ea59eb2c3f2c79cea&oe=5FD3C66E"
+                src="https://firebasestorage.googleapis.com/v0/b/debug-nation.appspot.com/o/WhatsApp%20Image%202020-12-17%20at%209.05.21%20PM.jpeg?alt=media&token=49a3401e-a2e8-4d2f-bfe7-7029cb35c7c5"
                 className="card-img-top rounded-circle"
                 alt="..."
                 height="280px"
